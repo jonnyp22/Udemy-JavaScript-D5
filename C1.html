@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href= "C1.css">
+    <script src="C1.js"></script>
+    <title>Desiciones</title>
+</head>
+<body>
+    <section>
+        <h1>Ingrese su edad</h1>
+        <input type="number" id="b1" class="b1e">
+        <button onclick="verificar()">Aceptar</button>
+        <br>
+        <p>¿Puede ingresar?</p>
+        <p id="ingresar">---</p>
+        <p>¿Puede beber?</p>
+        <p id="beber">---</p>
+        <p>¿Tiene entrada gratis?</p>
+        <p id="entradaGratis">---</p>
+        <br>
+        <br>
+    </section>
+
+        <h2> Comprar huevo </h2>
+        <p> En caso de que el valor del huevo sea menor de 5 pesos, se deberá comprar el huevo, en caso de ser mayor, no se comprará </p>
+
+        <input type="number" id="huevito">
+
+        <button onclick="huevo()">Aceptar</button>
+
+        <h3 id="desicion"> Se debe de comprar el huevo? </h3>
+
+    <section>
+
+        <h3> Ingresar un número </h3>
+        <input type="number" id="numerito">
+        <button onclick="numeroUno()">Aceptar</button>
+        <h3 id="mensaje"></h3>
+
+
+    </section>
+
+    <section>
+        <br>
+        <br>
+        <h3>Precio Mayoreo</h3>
+        <input type="number" id="campoMayoreo" placeholder="Ingrese un número">
+        <button onclick="precio()" >Aceptar</button>
+        <h3> El valor total por unidad es: <span id="unidades"> </span></h3>
+        <br>
+        <br>
+    </section>
+
+    <section>
+
+        <h2>Introducción a Switch</h2>
+        <p>Elija una de las opciones</p>
+        <ol>
+            <li>Manzana</li> 
+            <li>Plátano </li>
+            <li>Mango</li>
+            <li>Sandía</li>
+        </ol>
+
+        <input type="number" placeholder="ingrese un número" id="numeroFruta" min="1" max="4">
+        <button onclick="cambio()">Aceptar</button>
+        <h3 id="textoPrecio">""</h3>
+
+    </section>
+
+</body>
+</html>
